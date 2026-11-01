@@ -1,0 +1,1 @@
+Generate executable pytest tests likely to reveal regressions from the visible target change. Derive hypotheses directly from the diff, surrounding code, and existing tests. Do not use historical examples and do not assume a known bug.

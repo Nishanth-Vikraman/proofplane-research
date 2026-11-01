@@ -1,0 +1,1 @@
+Historical cases were selected using hidden-family similarity. Use only the supplied historical portable summaries, abstract trigger sequences, and test strategies; do not infer or claim access to the target's hidden family, fix, or regression test. 

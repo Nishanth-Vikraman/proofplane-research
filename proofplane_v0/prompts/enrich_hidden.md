@@ -1,0 +1,4 @@
+<!-- version: hidden-v2-registry -->
+Using the isolated fix and regression evidence, produce an abstract HiddenBugPayload. The portable_prompt_summary must use only generic mechanism language. It must contain no repository, package, module, class, function, variable, endpoint, path, filename, test name, or exact constant—even if those appear in the evidence.
+
+The input contains a controlled registry and registry_mode. For bug_family and every mechanism_primitives item, reuse the exact `id` of an existing entry whenever its definition fits. Do not paraphrase an existing entry. In `expand` mode only, when no entry fits, return `NEW: <short canonical label>` so the pipeline can add a stable registry entry. In `frozen` mode, never propose additions; return `UNSEEN: <short canonical label>` when no existing entry fits. Bug family is one recurring composite causal pattern. Mechanism primitives are minimal atomic causal operations, and should be a small nonredundant set.

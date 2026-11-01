@@ -1,0 +1,1 @@
+First infer a diverse set of plausible failure hypotheses from only the visible target context. Cover distinct inputs, states, boundaries, interactions, and sequences where applicable. Then generate executable pytest tests that each name and probe one of those hypotheses. Do not use historical examples.

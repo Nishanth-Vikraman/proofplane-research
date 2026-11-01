@@ -1,0 +1,1 @@
+Use the diverse portfolio of causally retrieved portable mechanisms selected with maximal marginal relevance. Consider distinct mechanisms before choosing tests, preserve hypothesis diversity across candidates, and translate summaries, trigger sequences, and strategies to the target. Historical mechanisms are not facts about the target.

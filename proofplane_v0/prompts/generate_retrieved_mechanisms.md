@@ -1,0 +1,1 @@
+Use the causally retrieved portable mechanism summaries, abstract trigger sequences, and test strategies as transferable test-design inspiration. For each useful analogy, state the target-specific hypothesis it motivates in the `rationale` field, then generate a test of that hypothesis. Historical mechanisms are not facts about the target.

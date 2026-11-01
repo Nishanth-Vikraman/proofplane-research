@@ -1,0 +1,30 @@
+data_dir: data
+database: data/proofplane.sqlite3
+artifacts_dir: data/artifacts
+split_seed: 0
+case_limit: 5
+models:
+  reasoning: gpt-4o-2024-08-06
+  fast: gpt-4.1-mini
+  embedding: text-embedding-3-small
+generation_k: [1, 3, 5, 10]
+retrieval_top_k: 3
+candidate_pool_size: 10
+mmr_lambda: 0.7
+hybrid_weights: {descriptor: 0.4, code: 0.25, sequence: 0.2, metadata: 0.15}
+metadata_field_weights: {component_roles: 1.0, operations_changed: 1.0, stateful_resources: 1.0}
+max_context_chars: 30000
+max_nearby_tests: 8
+max_test_snippet_chars: 2500
+max_repository_tree_entries: 100
+generation_max_output_tokens: 10000
+execution_timeout: 30
+api_budget_usd: 7.5
+api_call_reserve_usd: 0.25
+docker:
+  network: none
+  cpus: 1
+  memory: 512m
+  pids_limit: 128
+cache: {enabled: true}
+concurrency: 1

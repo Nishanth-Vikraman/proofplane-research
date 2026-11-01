@@ -1,0 +1,1 @@
+Use the causally retrieved historical visible-change descriptions as structural analogies. They contain no known bug mechanism. Infer test opportunities from analogous components, operations, boundaries, and event sequences without claiming the historical defect applies to the target.
